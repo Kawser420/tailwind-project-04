@@ -35,10 +35,10 @@
     <!-- Main Content -->
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
       <!-- Header Section -->
-      <header class="flex pt-10 mb-20">
+      <header class="flex pt-10 mb-20 items-center">
         <!-- Text Content -->
         <div>
-          <h1 class="text-5xl md:text-7xl mb-4">
+          <h1 class="text-4xl md:text-5xl lg:text-7xl mb-4">
             It's good <br />tea time at The <br />
             Tea House
           </h1>
@@ -54,8 +54,25 @@
           </button>
         </div>
         <!-- Image Content -->
-        <div class="-mr-10">
-          <img src="images/banner.png" alt="" />
+        <div class="relative">
+          <!-- Image -->
+          <div>
+            <img class="w-full" src="images/banner.png" alt="" />
+          </div>
+          <!-- Card -->
+          <div
+            class="absolute flex items-center bg-white shadow-md px-2 py-2 md:ml-20 md:-mt-20"
+          >
+            <!-- Icon -->
+            <div class="text-amber-500 text-xl md:text-2xl lg:text-3xl">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <!-- Text -->
+            <div class="ml-2 md:ml-3">
+              <h3 class="font-bold md:text-2xl text-3xl">5.00</h3>
+              <p class="text-gray-500">Trust Pilot Ratting</p>
+            </div>
+          </div>
         </div>
       </header>
     </main>
